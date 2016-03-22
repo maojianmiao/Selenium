@@ -1,0 +1,8 @@
+命名规则：驼峰命名法。所有类都用大写字母开头，所有函数或方法及变量都是小写字母开头
+
+defaultPage.py: 一个本地网站的Page对象，不用管。
+PageBase.py: 里面包含一盒PageBase类，封装一些鼠标移动，点击，对checkbox，Select等操作方法，所有Page对象都应继承这个类。
+TestBase.py：提供初始化webdriver和page对象的函数
+JDPages文件夹：包含京东官网相关页面对象。
+TestCases文件夹：所有测试用例文件夹。项目从这里开始执行。
+
